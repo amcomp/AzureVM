@@ -1,0 +1,19 @@
+---
+- name: Execute Common Tasks on Home Hosts
+  hosts:
+    - home
+    - server
+  become: true  # This allows tasks to run with elevated privileges
+
+  tasks:
+    - name: Import pingcc tasks
+      ansible.builtin.import_tasks: tasks/pingcc.yml
+
+    - name: Import essential tasks
+      ansible.builtin.import_tasks: tasks/essential.yaml
+
+    - name: Import SSH tasks
+      ansible.builtin.import_tasks: tasks/ssh.yml
+
+    - name: Import reboot tasks
+      ansible.builtin.import_tasks: tasks/reboot.yml

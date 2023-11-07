@@ -1,0 +1,14 @@
+---
+- name: Add Docker Group
+  ansible.builtin.group:
+    name: docker
+    state: present
+# Checks for docker group, add if not present.
+
+- name: Add user to Docker Group
+  ansible.builtin.user:
+    name: "{{ username }}"
+    groups: docker
+    append: true
+
+# adds the var:username to the docker group after checking for group existance

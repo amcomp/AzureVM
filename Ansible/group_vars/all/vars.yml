@@ -1,0 +1,12 @@
+username: cloud
+packages:
+  - vim
+  - htop
+  - neofetch
+  - tmux
+  - speedtest-cli
+  - nano
+  - net-tools
+  - docker.io
+  - docker-compose
+name: Update Packages # no reason for this, just playing with variables
