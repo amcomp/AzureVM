@@ -1,0 +1,1 @@
+az group show --resource-group AzureVMHomelab.ResourceGroup1
