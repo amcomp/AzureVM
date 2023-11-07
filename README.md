@@ -2,7 +2,7 @@
 ## Project Using AzureCLI/Bicep:
     - Deploy Resource Group - { X }
     - Deploy a Virtual Machine - { X }
-    - Save the Azure Bicep file. - { }
+    - Save the Azure Bicep file. - { X }
     - Connect to VM using Ansible to deploy packages and configure secure passwordless SSH connection. - { }
     - Deploy an Azure Blob. - { }
     - Upload a file to the blob from the vm. - { }
