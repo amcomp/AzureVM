@@ -5,3 +5,4 @@
     - Upload a file to the blob from the vm 
     - Connect to VM using Ansible to deploy packages and configure secure passwordless SSH connection.
     - Save the Azure Bicep file.
+    - Configure Github Actions deployment for Bicep.
