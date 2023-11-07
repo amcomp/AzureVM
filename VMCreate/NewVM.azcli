@@ -1,0 +1,1 @@
+az vm create -n AzureVMHomelab.UbuntuVM -g AzureVMHomelab.ResourceGroup1 --image Ubuntu2204 --generate-ssh-keys  --size Standard_B1s --os-disk-name AzureVMHomeLab.Disk  --data-disk-sizes-gb 32

@@ -1,0 +1,1 @@
+az vm show --name AzureVMHomelab.UbuntuVM --resource-group AzureVMHomelab.ResourceGroup1
